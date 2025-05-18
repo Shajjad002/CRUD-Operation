@@ -1,6 +1,8 @@
 ﻿using CodePluse.API.Data;
 using CodePluse.API.Models.Domain;
 using CodePluse.API.Models.DTO;
+using CodePluse.API.Repositories.Implementation;
+using CodePluse.API.Repositories.Interface;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -10,12 +12,11 @@ namespace CodePluse.API.Controllers
     [ApiController]
     public class CategoriesController : ControllerBase
     {
-        private readonly ApplicationDbContext _dbContext;
+        private readonly ICategoryRepository _categoryRepository;
 
-        public CategoriesController(ApplicationDbContext dbContext)
+        public CategoriesController(ICategoryRepository categoryRepository)
         {
-            //this.dbContext=dbContext;
-            _dbContext = dbContext;
+            _categoryRepository = categoryRepository;
         }
 
         [HttpPost]
@@ -29,10 +30,8 @@ namespace CodePluse.API.Controllers
                 UrlHandle = requestDTO.UrlHandle,
             };
 
-            await _dbContext.Categorys.AddAsync(category);
-            await _dbContext.SaveChangesAsync();
-
-
+            await _categoryRepository.CategoryAsync(category);
+                
             //Domain model to DTO
             var response = new CategoryDTO
             {

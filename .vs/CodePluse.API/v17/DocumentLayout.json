@@ -11,6 +11,14 @@
       "RelativeMoniker": "D:0:0:{31562757-65FE-41C4-9D56-9AD26F1CA4A5}|CodePluse.API.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{31562757-65FE-41C4-9D56-9AD26F1CA4A5}|CodePluse.API.csproj|f:\\my_project\\crud operation\\api\\codepluse.api\\repositories\\implementation\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31562757-65FE-41C4-9D56-9AD26F1CA4A5}|CodePluse.API.csproj|solutionrelative:repositories\\implementation\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31562757-65FE-41C4-9D56-9AD26F1CA4A5}|CodePluse.API.csproj|f:\\my_project\\crud operation\\api\\codepluse.api\\repositories\\interface\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31562757-65FE-41C4-9D56-9AD26F1CA4A5}|CodePluse.API.csproj|solutionrelative:repositories\\interface\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{31562757-65FE-41C4-9D56-9AD26F1CA4A5}|CodePluse.API.csproj|f:\\my_project\\crud operation\\api\\codepluse.api\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{31562757-65FE-41C4-9D56-9AD26F1CA4A5}|CodePluse.API.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -22,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 477,
-          "SelectedChildIndex": 12,
+          "SelectedChildIndex": 14,
           "Children": [
             {
               "$type": "Bookmark",
@@ -74,13 +82,39 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CategoryRepository.cs",
+              "DocumentMoniker": "F:\\My_Project\\CRUD Operation\\API\\CodePluse.API\\Repositories\\Implementation\\CategoryRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\Implementation\\CategoryRepository.cs",
+              "ToolTip": "F:\\My_Project\\CRUD Operation\\API\\CodePluse.API\\Repositories\\Implementation\\CategoryRepository.cs",
+              "RelativeToolTip": "Repositories\\Implementation\\CategoryRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T11:25:52.484Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ICategoryRepository.cs",
+              "DocumentMoniker": "F:\\My_Project\\CRUD Operation\\API\\CodePluse.API\\Repositories\\Interface\\ICategoryRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\Interface\\ICategoryRepository.cs",
+              "ToolTip": "F:\\My_Project\\CRUD Operation\\API\\CodePluse.API\\Repositories\\Interface\\ICategoryRepository.cs",
+              "RelativeToolTip": "Repositories\\Interface\\ICategoryRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T11:24:06.865Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "CategoriesController.cs",
               "DocumentMoniker": "F:\\My_Project\\CRUD Operation\\API\\CodePluse.API\\Controllers\\CategoriesController.cs",
               "RelativeDocumentMoniker": "Controllers\\CategoriesController.cs",
               "ToolTip": "F:\\My_Project\\CRUD Operation\\API\\CodePluse.API\\Controllers\\CategoriesController.cs",
               "RelativeToolTip": "Controllers\\CategoriesController.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABEAAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAABoAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-08T10:23:25.521Z",
               "EditorCaption": ""
@@ -93,13 +127,14 @@
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "F:\\My_Project\\CRUD Operation\\API\\CodePluse.API\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-08T09:20:17.751Z"
+              "WhenOpened": "2025-05-08T09:20:17.751Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "F:\\My_Project\\CRUD Operation\\API\\CodePluse.API\\Data\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
@@ -107,7 +142,8 @@
               "RelativeToolTip": "Data\\ApplicationDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-08T06:33:03.07Z"
+              "WhenOpened": "2025-05-08T06:33:03.07Z",
+              "EditorCaption": ""
             }
           ]
         },
